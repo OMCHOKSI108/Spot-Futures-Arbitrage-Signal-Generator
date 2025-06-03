@@ -57,3 +57,39 @@ spot-futures-arbitrage/
   
 ├── requirements.txt
 
+
+## 🚀 How to Run Locally
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/yourusername/spot-futures-arbitrage.git
+cd spot-futures-arbitrage
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Start the Backend
+```bash
+uvicorn backend.app:app --reload
+```
+### 4. Start the Frontend
+```bash
+streamlit run frontend/streamlit_app.py
+```
+
+## 📸 Screenshot
+
+## ✨ To-Do / Extend
+✅ Replace dummy futures with live NSE futures (web scraping / APIs)
+
+📊 Add chart of spreads over time
+
+📥 Export signal data to CSV/Excel
+
+☁️ Deploy on Render / Heroku
+
+## 👨‍💻 Author
+Patel Dev Dharmesh
+
+[LinkedIn](https://www.linkedin.com/in/devdpatel0005/) • [GitHub](https://github.com/devpatel0005)
