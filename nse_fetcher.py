@@ -6,6 +6,7 @@ headers = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+
 session = requests.Session()
 session.headers.update(headers)
 
